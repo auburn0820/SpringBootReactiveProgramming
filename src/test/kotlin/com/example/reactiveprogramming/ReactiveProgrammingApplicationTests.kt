@@ -1,9 +1,8 @@
 package com.example.reactiveprogramming
 
 import org.junit.jupiter.api.Test
-import org.springframework.boot.test.context.SpringBootTest
 
-@SpringBootTest
+@IntegrationTest
 class ReactiveProgrammingApplicationTests {
 
     @Test
