@@ -1,0 +1,12 @@
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 7.0.0
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 0 # For SpringBootTest, MongoDataTest. Each of these are running embedded MongoDB.
+      database: test
